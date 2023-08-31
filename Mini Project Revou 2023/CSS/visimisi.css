@@ -1,0 +1,138 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+   
+}
+
+.logo {
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+nav {
+  height: 60px;
+  border-bottom: 2px solid black;
+  width: 100%;
+  background-color: #fff;
+}
+nav .container {
+  margin-top: 35px;
+  margin-right: 35px;
+  display: flex;
+   justify-content: space-between;
+}
+
+.nav-menu a:hover {
+
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #191919;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 9px 25px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.visi-misi-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.visi-misi {
+    margin-bottom: 20px;
+}
+
+.visi-misi h2 {
+    color: #007BFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.visi-misi ul li {
+    margin-left: 25px;
+}
+
+.main-foto {
+    text-align: center;
+  }
+  .main-foto img {
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .main-foto span {
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white
+    
+}
+
+.footer-program p {
+  color: white;
+  font-family: roboto;
+}
+
+.footer-copyright p {
+  color: white;
+  font-family: roboto;
+}
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+@media only screen and (max-width: 600px) {
+    main {
+      padding: 20px 0px 20px;
+      font-size: 12px;
+    }
+    .main-judul h1 {
+      font-size: 18px;
+    }
+    .main-form {
+      width: 100%;
+    }
+    .main-form table {
+      width: 100%;
+    }
+    .main-pesan {
+      display: flex;
+      flex-direction: column;
+    }
+    .main-data {
+      margin: 0px;
+    }
+  
+  }

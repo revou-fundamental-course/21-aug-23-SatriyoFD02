@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewreport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <nav>
+      
+    </div>
+        <div class="container">
+        <div class="logo"
+            <a href="https://revou.co/" target="_blank">
+              <img src="https://pkk.uma.ac.id/wp-content/uploads/2023/06/revo.png" alt="RevoU" width="50">
+            </a>
+        </div>
+               <div class="nav-menu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../HALAMAN/VisiMisi.html">Visi Misi</a></li>
+          <li><a href="../HALAMAN/daftarguru.html">Daftar Guru</a></li>
+          <li><a href="../HALAMAN/prestasi.html">Prestasi</a></li>
+        </ul>
+        </div>
+        
+    </nav>
+        
+    <header>
+        <div class="container">
+          <div class="header-judul">
+            <h1>Halo <span id="user-name"></span>, Welcome To SMAN 5 MADIUN</h1>
+            <p>Ini adalah website latihan yang dibuat oleh SATRIYO.</p>
+          </div>
+        </div>
+    </header>
+    <main class="facility">
+        <div class="container">
+            <div class="Facility1">
+                <h5>Our Facility</h5>
+            </div>
+            <div class ="facility-bulat">
+            <div class="gambarbulat">
+                <img src="https://www.labtechsupplyco.com/wp-content/uploads/2022/08/LabTech-Supply-Company-Laboratory-Furniture-Supplier-Santa-Ana-Modern-Lab-Furniture-Design-Trends.jpg" alt="fasilitas 1" width="100">
+                <p>Modern Lab</p>
+            </div>
+            <div class="gambarbulat">
+                <img src="https://i.pinimg.com/550x/ed/b6/ec/edb6ecf117ae08f2b75acdb769f807fc.jpg" alt="fasilitas 1" width="100">
+                <p>Modern Class</p>
+            </div>
+            <div class="gambarbulat">
+                <img src="https://arsitagx-master-article.s3.ap-southeast-1.amazonaws.com/article-photo/351/Regatta03071511.jpg" alt="fasilitas 1" width="100">
+                <p>Modern Canteen</p>
+            </div>
+            <div class="gambarbulat">
+                <img src="https://d3p0bla3numw14.cloudfront.net/news-content/img/2021/06/24123224/Kantor-Modern-dengan-Partisi-Kaca.jpg" alt="fasilitas 1" width="100">
+                <p>Modern Office</p>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="container">
+            <div class ="main-judul">
+            <h2>Message Us</h2>
+            </div>
+        <div class="main-pesan">
+            <div class="main-form">
+              <form name="message-form" onsubmit="kirim(); return false">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><label for="nama">Nama</label></td>
+                      <td>:
+                        <input type="text" name="nama" id="nama" required>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="ttl">Tanggal Lahir</label></td>
+                      <td>:
+                        <input type="date" name="ttl" id="ttl" required>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="gender">Jenis Kelamin</label></td>
+                      <td>:
+                        <input type="radio" name="gender" id="laki-laki" value="Laki-laki" required><label for="laki-laki">Laki-laki</label>
+                        <input type="radio" name="gender" id="perempuan" value="Perempuan" required><label for="perempuan">Perempuan</label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="position: absolute;"><label for="pesan">Pesan</label></td>
+                      <td>
+                        <textarea name="pesan" id="pesan" cols="30" rows="5" required></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <input type="submit" name="submit" value="Kirim">
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </form>
+            </div>
+            <div class="main-data">
+              <table>
+                <tbody>
+                  <tr class="td-waktu">
+                    <td><label for="waktu">Waktu</label></td>
+                    <td>
+                      <span id="waktu"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td>:
+                      <span id="nama2"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="ttl">Tanggal Lahir</label></td>
+                    <td>:
+                      <span id="ttl2"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="gender">Jenis Kelamin</label></td>
+                    <td>:
+                      <span id="gender2"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="pesan">Pesan</label></td>
+                    <td>:
+                      <span id="pesan2"></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>        
+        </main>
+
+    <footer>
+        <div class="container">
+          <div class="footer-program">
+            <p>Software Engineering Fundamental Course Agustus 2023</p>
+          </div>
+          <div class="footer-copyright">
+            <p>&copy; Created & Presented By Satriyo Fajar D</p>
+          </div>
+        </div>
+    </footer>
+     <script src="JS/script.js"></script>
+</body>
+</html>

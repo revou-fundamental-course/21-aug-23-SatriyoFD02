@@ -1,0 +1,288 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+   
+}
+
+.logo {
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+nav {
+  height: 60px;
+  border-bottom: 2px solid black;
+  width: 100%;
+  background-color: #fff;
+}
+nav .container {
+  margin-top: 35px;
+  margin-right: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #191919;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 9px 25px;
+}
+
+header {
+    height: 578px;
+    border-bottom: 2px solid black;
+    background: url(https://sman1tbtlampung.sch.id/media_library/posts/large/70b0c4fe7b289b72a2eae345d85b4b89.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative;
+    
+}
+
+header ::after {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px); 
+}
+
+
+.header-judul h1 {
+  margin-top: 25px;
+   margin-left: 45px;
+   font-family: roboto;
+  color: black;
+}
+
+.header-judul h1, p {
+  margin-left: 45px;
+  margin-top: 5px;
+  font-family: roboto;
+  display: block;
+  color: black
+  
+}
+.facility {
+    padding: 45px 0px 20px;
+    font-family: roboto;
+}
+
+.facility h5{
+    font-family: roboto;
+    margin-left: 45px;
+    font-size: 25px;
+}
+.facility p{
+    font-family: roboto;
+    margin-left: -4px;
+}
+
+.gambarbulat img {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 50px 50px 0px
+}
+
+.facility-bulat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+#messageForm h2 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#messageForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;  
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group textarea {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+#messageDisplay {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.user-message {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.timestamp {
+    color: #777;
+    font-size: 12px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white
+    
+}
+
+.footer-program p {
+  color: white;
+  font-family: roboto;
+  margin-left: 0 px;
+}
+
+.footer-copyright p {
+  color: white;
+  font-family: roboto;
+  margin-right: 20px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+main {
+    padding: 80px 0px 20px;
+  }
+  .main-judul {
+    margin: 10px 0 30px;
+    line-height: 1.8em;
+  }
+
+  .main-judul h2 {
+    margin-left: 50px;
+    font-family: roboto;
+  }
+  .main-pesan {
+    display: flex;
+    margin-left: 40px;
+  }
+  .main-form {
+    width: 50%;
+    font-family: roboto;
+  }
+  .main-form table td {
+    padding: 10px;
+  }
+  .main-form table input[name="submit"] {
+    width: 100%;
+    background-color: #078494;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+  .main-form table input[name="submit"]:hover {
+    background-color: #078494;
+    cursor: pointer;
+  }
+
+  .main-data {
+    font-family: roboto;
+  }
+  .main-data table td {
+    padding: 12px;
+  }
+  .main-data .td-waktu {
+    border-bottom: 1px solid black;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    main {
+      padding: 20px 0px 20px;
+      font-size: 12px;
+    }
+    .main-judul h1 {
+      font-size: 18px;
+    }
+    .main-form {
+      width: 100%;
+    }
+    .main-form table {
+      width: 100%;
+    }
+    .main-pesan {
+      display: flex;
+      flex-direction: column;
+    }
+    .main-data {
+      margin: 0px;
+    }
+  
+  }
